@@ -1,0 +1,6 @@
+{{ $type := .Get "type" | default "info" }}
+{{ $class := "alert-info" }}
+{{ if eq $type "warning" }}{{ $class = "alert-warning" }}{{ else if eq $type "danger" }}{{ $class = "alert-danger" }}{{ else if eq $type "success" }}{{ $class = "alert-success" }}{{ end }}
+<div class="alert {{ $class }} my-3" role="alert">
+  {{ .Inner | markdownify }}
+</div>
