@@ -78,6 +78,3 @@ outputs.section = ["html", "rss"]
 
   [params.toc]
     displayTags = false
-
-[seo.favicons]
-  icon = "favicon.ico"
