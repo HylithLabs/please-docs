@@ -41,7 +41,7 @@ When executing AI-assisted commands, repository diffs and user prompts are trans
 ### 4. API Credentials & Key Management
 
 #### 4.1 Local Storage
-Your API access keys (including Anthropic Claude, Google Gemini, OpenAI, or local instances such as Ollama) are stored exclusively on your local device. 
+Your API access keys (Anthropic Claude, Google Gemini, or OpenAI) are stored exclusively on your local device. 
 
 #### 4.2 Credential Non-Disclosure
 Your API keys are strictly utilized for direct authentication between your local terminal environment and your designated API provider. Under no circumstances are your API keys or access tokens transmitted to or visible by Hylith.
@@ -55,7 +55,6 @@ When you elect to enable AI-powered features, PLEASE communicates directly with 
 - **Anthropic:** Subject to the [Anthropic Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms).
 - **Google Cloud / Gemini API:** Subject to the [Google Cloud Data Governance Terms](https://cloud.google.com/privacy).
 - **OpenAI:** Subject to the [OpenAI Business Terms](https://openai.com/policies/business-terms).
-- **Self-Hosted / Local (Ollama, LM Studio):** Executes 100% locally on your machine with zero external network transmission.
 
 Most enterprise AI API providers maintain contractual policies guaranteeing that data sent via commercial APIs is not retained or used for foundation model training.
 

@@ -14,5 +14,5 @@ The ideas behind how please is built.
 {{< cards >}}
   {{< card link="safety-nets" title="Safety Nets" subtitle="How please protects you from destructive operations" icon="shield-check" />}}
   {{< card link="providers" title="Providers" subtitle="Anthropic, Google, and OpenAI, and how please picks a model" icon="adjustments" />}}
-  {{< card link="design-philosophy" title="Design Philosophy" subtitle="The principles please is built around" icon="light-bulb" />}}
+  {{< card link="design-philosophy" title="Design Philosophy" subtitle="The principles please is built around" icon="bulb" />}}
 {{< /cards >}}

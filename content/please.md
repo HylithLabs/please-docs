@@ -22,7 +22,7 @@ Run `please` followed by any plain-language request in quotes (e.g., `please "sy
 Destructive operations (force push, hard reset, branch deletion) require explicit confirmation up front. Sensitive environment files (`.env`, secrets) are protected from accidental commits.
 
 #### 🔌 Choice of AI Provider
-Connect to your preferred AI model—**Anthropic Claude**, **Google Gemini**, **OpenAI ChatGPT**, or run 100% locally with **Ollama**. Switch providers anytime without losing saved keys.
+Connect to your preferred AI model—**Anthropic Claude**, **Google Gemini**, or **OpenAI ChatGPT**. Switch providers anytime without losing saved keys.
 
 ---
 
@@ -36,13 +36,15 @@ Connect to your preferred AI model—**Anthropic Claude**, **Google Gemini**, **
 | **`please branch`** | Create, switch, rename, or clean up branches |
 | **`please sync`** | Rebase or merge current branch with main safely |
 | **`please undo`** | Revert recent commits or restore previous working state |
+| **`please squash`** | Combine a run of commits into one, AI-written message |
+| **`please update`** | Update please itself to the latest release |
 
 ---
 
 ### Getting Started
 
 1. **Install PLEASE:**
-   See the [Installation Guide](/docs/getting-started/installation/) to install via cargo or package manager.
+   See the [Installation Guide](/docs/getting-started/installation/) to install a prebuilt binary with a script, Homebrew, or a direct download, or build it from source.
 
 2. **Connect your Provider:**
    Run `please setup` to configure your API key.

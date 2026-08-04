@@ -36,23 +36,29 @@ Full command reference, grouped by what you are trying to do.
 | `please stash list` | Shows saved stashes | No |
 | `please stash pop` | Restores the most recent stash | No |
 | `please stash drop` | Deletes the most recent stash | Yes |
+| `please squash [n \| ref]` | Combines a run of commits into one, AI-written message | Only if already pushed |
+| `please purge <path>` | Permanently removes a file or folder from all git history | Yes |
 | `please "..."` | Agent mode, a plain language request | Varies |
 | `please chat` | The agent, kept alive across multiple messages | Varies |
 | `please alias <name>` | Gives please a shorter command name | No |
+| `please update` | Updates please itself to the latest release | No |
 
 ## Groups
 
 {{< cards >}}
-  {{< card link="commit" title="Commit" subtitle="please commit" icon="upload" />}}
-  {{< card link="push" title="Push" subtitle="please push" icon="cloud-upload" />}}
-  {{< card link="status" title="Status and Log" subtitle="status, log" icon="eye" />}}
-  {{< card link="branch" title="Branches" subtitle="branch, switch, rename, cleanup, branch delete" icon="share" />}}
-  {{< card link="sync" title="Sync" subtitle="sync, sync exactly" icon="refresh" />}}
-  {{< card link="undo-redo" title="Undo and Redo" subtitle="undo, redo" icon="reply" />}}
-  {{< card link="history" title="History Fixes" subtitle="revert, restore, move commit" icon="clock" />}}
-  {{< card link="discard" title="Discard" subtitle="please discard" icon="trash" />}}
-  {{< card link="stash" title="Stash" subtitle="stash, stash list, stash pop, stash drop" icon="archive" />}}
-  {{< card link="agent-mode" title="Agent Mode" subtitle="please followed by a plain language request" icon="chip" />}}
-  {{< card link="chat" title="Chat" subtitle="please chat" icon="chat-alt" />}}
-  {{< card link="alias" title="Alias" subtitle="please alias" icon="tag" />}}
+  {{< card link="please-commit" title="Commit" subtitle="please commit" icon="upload" />}}
+  {{< card link="please-push" title="Push" subtitle="please push" icon="cloud-upload" />}}
+  {{< card link="please-status-and-please-log" title="Status and Log" subtitle="status, log" icon="eye" />}}
+  {{< card link="branches" title="Branches" subtitle="branch, switch, rename, cleanup, branch delete" icon="share" />}}
+  {{< card link="please-sync" title="Sync" subtitle="sync, sync exactly" icon="refresh" />}}
+  {{< card link="please-undo-and-please-redo" title="Undo and Redo" subtitle="undo, redo" icon="arrow-back-up" />}}
+  {{< card link="history-fixes" title="History Fixes" subtitle="revert, restore, move commit" icon="clock" />}}
+  {{< card link="please-discard" title="Discard" subtitle="please discard" icon="trash" />}}
+  {{< card link="please-stash" title="Stash" subtitle="stash, stash list, stash pop, stash drop" icon="archive" />}}
+  {{< card link="please-squash" title="Squash" subtitle="please squash" icon="stack" />}}
+  {{< card link="please-purge" title="Purge" subtitle="please purge" icon="flame" />}}
+  {{< card link="agent-mode" title="Agent Mode" subtitle="please followed by a plain language request" icon="cpu" />}}
+  {{< card link="please-chat" title="Chat" subtitle="please chat" icon="message-circle" />}}
+  {{< card link="please-alias" title="Alias" subtitle="please alias" icon="tag" />}}
+  {{< card link="please-update" title="Update" subtitle="please update" icon="download" />}}
 {{< /cards >}}

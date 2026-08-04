@@ -28,5 +28,5 @@ Switch the active provider, change a saved provider's model, or remove a saved k
 The tool calling conversation that powers agent mode is represented in provider neutral terms internally. Only a small adapter per provider translates that to and from its own wire format. This is what lets please add support for a new provider without touching the agent loop itself.
 
 {{< cards >}}
-  {{< card link="../../getting-started/setup" title="Setup" subtitle="Run please setup to connect a provider" icon="cog" />}}
+  {{< card link="../../getting-started/setup" title="Setup" subtitle="Run please setup to connect a provider" icon="settings" />}}
 {{< /cards >}}

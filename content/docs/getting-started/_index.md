@@ -13,5 +13,5 @@ Install please and connect it to an AI provider.
 
 {{< cards >}}
   {{< card link="installation" title="Installation" icon="download" />}}
-  {{< card link="setup" title="Setup" icon="cog" />}}
+  {{< card link="setup" title="Setup" icon="settings" />}}
 {{< /cards >}}

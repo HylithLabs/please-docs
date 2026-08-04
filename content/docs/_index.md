@@ -26,6 +26,6 @@ Run please with no arguments, or please help, any time for a full command refere
 ## Next
 
 {{< cards >}}
-  {{< card link="getting-started/installation" title="Getting Started" subtitle="Install please and run setup" icon="document-text" />}}
-  {{< card link="commands" title="Commands" subtitle="Full command reference" icon="collection" />}}
+  {{< card link="getting-started/installation" title="Getting Started" subtitle="Install please and run setup" icon="file-text" />}}
+  {{< card link="commands" title="Commands" subtitle="Full command reference" icon="stack" />}}
 {{< /cards >}}

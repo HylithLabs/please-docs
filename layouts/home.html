@@ -22,14 +22,21 @@
     var userAgent = window.navigator.userAgent || "";
     var platform = window.navigator.platform || "";
     var os = "OS";
+    var anchor = "";
     if (/mac/i.test(platform) || /macintosh|mac os x/i.test(userAgent)) {
       os = "macOS";
+      anchor = "#macos-and-linux";
     } else if (/win/i.test(platform) || /windows/i.test(userAgent)) {
       os = "Windows";
+      anchor = "#windows";
     } else if (/linux/i.test(platform) || /linux/i.test(userAgent)) {
       os = "Linux";
+      anchor = "#macos-and-linux";
     }
     btn.textContent = "Install for " + os;
+    if (anchor) {
+      btn.href = "/docs/getting-started/installation/" + anchor;
+    }
   });
 </script>
 {{ end }}
