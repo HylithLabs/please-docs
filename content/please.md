@@ -1,4 +1,4 @@
----
+--- 
 title: "PLEASE CLI"
 description: "PLEASE is an AI-native Git command line tool that lets you interact with Git using plain language, automated commit splitting, and safe agent execution."
 lead: "Talk to Git in plain language. AI-assisted commits, plain-language status, and intelligent agent mode built directly into your terminal."
